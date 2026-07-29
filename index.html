@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/layout.all.css">
+    <link rel="stylesheet" href="./css/media-quarey.css">
+    <link rel="icon" href="./images/favicon.png">
+    <title>ContactHub - Smart Contact Manager</title>
+
+</head>
+<body class="font-family-main main-bg-body vh-100">
+    
+    <nav class="navbar navbar-expand-lg nav-bg nav-border-bottom fixed-top py-12">
+        <div class="container-fluid container-xl padding-inline">
+            <div class="inner d-flex-between w-100">
+                <div class="nav-right d-flex-center">
+                    <div class="logo width-px-44 height-px-44 rounded-px-12 nav-logo-bg d-flex-center nav-logo-shadow mr-10">
+                        <i class="fa-solid fa-address-book fs-18 text-white"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="main-titel-fs main-titel-color mb-0">Contact<span class="nav-span-color">Hub</span></h1>
+                        <p class="main-p-fs main-p-color mb-0 d-none d-md-inline">Smart Contact Manager</p>
+                    </div>
+                </div>
+                <div class="nav-left d-flex-center">
+                    <button onclick="contactAddBotton()" id="" class="btn nav-button-bg text-white rounded-px-12 fs-14 py-9 px-20 mr-10 nav-button-shadwo-hover" type="submit">
+                        <i class="fa-solid fa-plus fs-10 mr-8"></i>
+                        <span class="text-capitalize fw-bold">add <span class="d-none d-md-inline">contact</span></span>
+                    </button>
+                    <div class="icon d-none d-md-flex">
+                        <button class="border-0 rounded-px-12 width-px-40 height-px-40 main-p-color bg-white mr-10 nav-icon-hover">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <button class="border-0 rounded-px-12 width-px-40 height-px-40 main-p-color bg-white mr-10 nav-icon-hover">
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                    </div>
+                    <div class="profile-image width-px-40 height-px-40 rounded-px-12 overflow-hidden">
+                        <img src="./images/Abdallah-Mohamed-Photo.JPG" class="w-100" alt="avatar-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="pt-80">
+        <div class="container-fluid container-xl padding-inline mt-20">
+            <div class="content">
+                <div class="container px-0">
+                    <div id="rowTopCard" class="row mb-20">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-xl-8">
+                            <div class="inner">
+                                <div class="titel">
+                                    <h2 class="main-titel-color text-capitalize fs-30 fw-bold mb-0">all contacts</h2>
+                                    <p class="main-p-color fs-14">Manage and organize your 4 contacts</p>
+                                </div>
+                                <div class="search position-relative d-flex-start mb-20">
+                                    <div class="position-absolute pl-16 main-p-color fs-14"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                    <input id="searchInput" oninput="searchContact()" type="text" class="p-14 fs-14 w-100 pr-16 pl-44 rounded-px-12 header-search-color header-search-border" placeholder="Search by name, phone, or email...">
+                                </div>
+                                <div class="container-fluid px-0">
+                                    <div class="row" id="rowDataLeft">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-4 px-0" id="colDataRight">
+                            <div class="cardRight">
+                                <div class="inner">
+                                    <div class="container-fluid mx-0">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="inner">
+                                                    <div class="favorites card rounded-px-16 mb-15 overflow-hidden">
+                                                        <div class="titel header-conact-card-icon-titel-favorite-bg py-16 px-20">
+                                                            <div class="card-1 flex-direction-row d-flex-between rounded-px-12">
+                                                                <div class="icon d-flex-between">
+                                                                    <div class="name-number width-px-40 height-px-40 rounded-px-12 d-flex-center header-conact-card-icon-top-favorite-bg text-white fs-16 mr-15">
+                                                                        <i class="fa-solid fa-star"></i>
+                                                                    </div>
+                                                                    <div class="call-number">
+                                                                        <h3 class="main-titel-color fs-16 fw-bold mb-0">Favorites</h3>
+                                                                        <p class="main-p-fs main-p-color fs-12 mb-0">Quick access to starred contacts</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bg-white p-20 rounded-px-16 header-card-shadow-hovercard">
+                                                            <div class="container">
+                                                                <div class="row" id="cardFavorite">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="inner">
+                                                    <div class="emergency card rounded-px-16 mb-15 overflow-hidden">
+                                                        <div class="titel header-conact-card-icon-titel-emergency-bg py-16 px-20">
+                                                            <div class="card-1 flex-direction-row d-flex-between rounded-px-12">
+                                                                <div class="icon d-flex-between">
+                                                                    <div class="name-number width-px-40 height-px-40 rounded-px-12 d-flex-center header-conact-card-icon-top-emergency-bg text-white fs-16 mr-15">
+                                                                        <i class="fa-solid fa-heart-pulse"></i>
+                                                                    </div>
+                                                                    <div class="titel">
+                                                                        <h3 class="main-titel-color fs-16 fw-bold mb-0">Emergency</h3>
+                                                                        <p class="main-p-fs main-p-color fs-12 mb-0">Important contacts for urgent calls</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bg-white p-20 rounded-px-16 header-card-shadow-hovercard">
+                                                            <div class="container">
+                                                                <div class="row" id="cardEmergency">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="sectionNewContactAdd" class="cardsLeft">
+        </div>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

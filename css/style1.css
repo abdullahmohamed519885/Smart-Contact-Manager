@@ -1,0 +1,45 @@
+.backdrop-filter {
+    backdrop-filter: blur(4px);
+}
+.no-contact-found-color {
+    color: #d1d5dc;
+}
+.missing-faild-color {
+    color: #f27474;
+}
+.missing-faild-h3-color {
+    color: #545454;
+}
+.missing-faild-border {
+    border: 4px solid #f27474;
+}
+.missing-faild-button-shadow {
+    box-shadow: 0 0 0 3px #7066e080;
+}
+.missing-faild-button-bg {
+    background-color: #7066e0;
+}
+.missing-faild-button-bg-hover:hover {
+    background-color: #655cca;
+}
+.warning-delete-color {
+    color: #f8bb86;
+}
+.warning-delete-h3-color {
+    color: #545454;
+}
+.warning-delete-border {
+    border: 4px solid #f8bb86;
+}
+.warning-delete-button-yes-delete-bg {
+    background-color: #dc2626;
+}
+.warning-delete-button-cancel-bg {
+    background-color: #7066e0;
+}
+.warning-delete-button-yes-delete-bg-hover:hover {
+    background-color: #6b7280;
+}
+.warning-delete-button-cancel-bg-hover:hover {
+    background-color: #606773;
+}

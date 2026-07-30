@@ -1,0 +1,359 @@
+.font-family-main {
+    font-family: Inter, sans-serif;
+}
+.main-p-fs {
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-p-color {
+    color: #6a7282;
+}
+.main-bg-body {
+    background-color: #f8fafc;
+}
+.main-titel-fs {
+    font-size: 24px;
+    font-weight: 700;
+}
+.main-titel-color {
+    color: #101828;
+}
+.nav-span-color {
+    color: #7f22fe;
+}
+.nav-logo-bg {
+    background-image: linear-gradient(to left top, #4f39f6 , #7f22fe);
+}
+.nav-button-bg {
+    background-image: linear-gradient(to left, #4f39f6 , #7f22fe);
+}
+.nav-logo-shadow {
+    box-shadow: 0 10px 15px -3px #8e51ff40;
+}
+.nav-image-shadow {
+    box-shadow: 0 0 0 2px #f6f3f4;
+}
+.nav-button-shadwo-hover:hover {
+    box-shadow: 0 10px 15px -3px #8e51ff4d;
+    transform: translateY(-2px);
+    transition: all 0.06s;
+}
+.nav-border-bottom {
+    border-bottom: 1px solid #e5e7eb80;
+}
+.nav-bg {
+    background-color: #fffffff5;
+}
+.header-card1-shadow {
+    box-shadow: 0 10px 15px -3px #2b7fff40;
+}
+.header-card2-shadow {
+    box-shadow: 0 10px 15px -3px #fe9a0040;
+}
+.header-card3-shadow {
+    box-shadow: 0 10px 15px -3px #ff205640;
+}
+.header-card1-bg {
+    background-image: linear-gradient(to left , #155dfc , #2b7fff);
+}
+.header-card2-bg {
+    background-image: linear-gradient(to left , #ff6900 , #ffb900);
+}
+.header-card3-bg {
+    background-image: linear-gradient(to left , #e7000b , #ff2056);
+}
+.header-card-shadow-hover:hover {
+    box-shadow: 0 4px 6px -1px #0000001a;
+}
+.header-search-border {
+    border: 1px solid #ebe6e7;
+}
+.header-search-color {
+    color: #364153;
+}
+.nav-icon-hover:hover {
+    background-color: #f6f3f4 !important;
+    color: #364153;
+    border: none;
+}
+.flex-direction-row {
+    flex-direction: row !important; 
+}
+.header-cotact-bg-icon {
+    background-image: linear-gradient(to top , #009689 , #00bc7d);
+}
+.header-cotact-shadow-icon {
+    box-shadow: 0 0 0 2px #fff;
+}
+.header-cotact-bg-icon2 {
+    background-color: #ffb900;
+}
+.header-cotact-bg-icon3 {
+    background-color: #ff2056;
+}
+.header-name-number-icon-bg {
+    background-color: #dbeafe;
+}
+.header-name-number-icon-color {
+    color: #155dfc;
+}
+.header-name-email-icon-bg {
+    background-color: #ede9fe;
+}
+.header-name-email-icon-color {
+    color: #7f22fe;
+}
+.header-name-location-icon-bg {
+    background-color: #d0fae5;
+}
+.header-name-location-icon-color {
+    color: #009966;
+}
+.header-conact-emergancy-color {
+    color: #ec003f;
+}
+.header-conact-emergancy-bg {
+background-color: #fff1f2;
+}
+.header-conact-group-color {
+    color: #8200db;
+}
+.header-conact-group-bg {
+background-color: #f3e8ff;
+}
+.header-conact-bottom-card-bg {
+    background-color: #f9fafbcc;
+}
+.header-conact-bottom-card-border-top {
+    border-top: 1px solid #f6f3f4;
+}
+.header-conact-bottom-card-icon1-color {
+    color: #009966;
+}
+.header-conact-bottom-card-icon2-color {
+    color: #ffb900;
+}
+.header-conact-bottom-card-icon3-color {
+    color: #ff2056;
+}
+.header-conact-bottom-card-icon4-color {
+    color: #6a7282;
+}
+.header-conact-card-icon-favorite-color {
+    color: #009966;
+}
+.header-conact-bottom-card-icon1-bg {
+    background-color: #ecfdf5;
+}
+.header-conact-bottom-card-icon2-bg {
+    background-color: #fffbeb;
+}
+.header-conact-bottom-card-icon3-bg {
+    background-color: #fff1f2;
+}
+.header-conact-bottom-card-icon4-bg {
+    background-color: #fbf9fa;
+}
+.header-conact-card-icon-top-favorite-bg {
+    background-image: linear-gradient(to top left , #ff6900 , #ffb900);
+}
+.header-conact-card-icon-top-emergency-bg {
+    background-image: linear-gradient(to top left , #e7000b , #ff2056);
+}
+.header-conact-card-icon-titel-favorite-bg {
+    background-image: linear-gradient(to top left , #fff7ed , #fffbeb);
+}
+.header-conact-card-icon-titel-emergency-bg {
+    background-image: linear-gradient(to top left , #fef2f2 , #fff1f2);
+}
+.header-conact-card-icon-favorite-bg {
+    background-color: #d0fae5;
+}
+.header-conact-card-icon-emergency-bg {
+    background-color: #ffe4e6;
+}
+.header-conact-bottom-card-email-bg-hover:hover {
+    background-color: #ede9fe;
+}
+.header-conact-bottom-card-icon1-bg-hover:hover {
+    background-color: #d0fae5;
+}
+.header-conact-bottom-card-icon2-bg-hover:hover {
+    background-color: #fef3c6;
+}
+.header-conact-bottom-card-icon3-bg-hover:hover {
+    background-color: #ffe4e6;
+}
+.header-conact-bottom-card-icon4-bg-hover:hover {
+    background-color: #eef2ff;
+}
+.header-conact-bottom-card-icon5-bg-hover:hover {
+    background-color: #fff1f2;
+}
+.header-conact-bottom-card-icon4-color-hover:hover {
+    color: #4f39f6;
+}
+.header-conact-bottom-card-icon5-color-hover:hover {
+    color: #ec003f;
+}
+.header-conact-bottom-card-icon2-colorAndBg-hover:hover {
+    color: #ffb900;
+    background-color: #f6f3f4;
+}
+.header-conact-bottom-card-icon3-colorAndBg-hover:hover {
+    color: #ff2056;
+    background-color: #f6f3f4;
+}
+.main-addContact-card-icon-color {
+    color: #99a1af;
+}
+.main-addContact-card-icon-hover:hover {
+    color: #4a5565;
+    background-color: #f6f3f4 !important;
+}
+.main-addContact-titel-border-bottom {
+    border-bottom: 1px solid #f6f3f4;
+}
+.add-contact-require-color {
+    color: #ff2056;
+}
+.add-contact-check-text-color {
+    color: #4a5565;
+}
+.add-contact-check-text-color-hover:hover {
+    color: #111213;
+}
+.add-contact-checkbox-border {
+    border: 1px solid #d1d5dc;
+}
+.add-contact-botton-cancel-bg {
+    background-color: #f6f3f4;
+}
+.add-contact-botton-save-bg {
+    background-image: linear-gradient(to left , #4f39f6, #7f22fe);
+}
+.add-contact-botton-cancel-bg-hover:hover {
+    background-color: #f1f3f9;
+}
+.add-contact-input-file-bg-hover:hover {
+    background-color: #ebe6e7;
+}
+.add-contact-botton-save-shadow-hover:hover {
+    box-shadow: 0 10px 15px -3px #8e51ff40;
+}
+.add-contact-card-bg {
+    background-color: #10182899;
+}
+.backdrop-filter {
+    backdrop-filter: blur(4px);
+}
+.no-contact-found-color {
+    color: #d1d5dc;
+}
+.missing-faild-color {
+    color: #f27474;
+}
+.missing-faild-h3-color {
+    color: #545454;
+}
+.missing-faild-border {
+    border: 4px solid #f27474;
+}
+.missing-faild-button-shadow {
+    box-shadow: 0 0 0 3px #7066e080;
+}
+.missing-faild-button-bg {
+    background-color: #7066e0;
+}
+.missing-faild-button-bg-hover:hover {
+    background-color: #655cca;
+}
+.warning-delete-color {
+    color: #f8bb86;
+}
+.warning-delete-h3-color {
+    color: #545454;
+}
+.warning-delete-border {
+    border: 4px solid #f8bb86;
+}
+.warning-delete-button-yes-delete-bg {
+    background-color: #dc2626;
+}
+.warning-delete-button-cancel-bg {
+    background-color: #6b7280;
+}
+.warning-delete-button-yes-delete-bg-hover:hover {
+    background-color: #c62222;
+}
+.warning-delete-button-cancel-bg-hover:hover {
+    background-color: #606773;
+}
+.success-update-color {
+    color: #b9f8cf;
+}
+.success-update-h3-color {
+    color: #545454;
+}
+.success-update-border {
+    border: 4px solid #b9f8cf;
+}
+.success-update-button-yes-delete-bg {
+    background-color: #dc2626;
+}
+.success-update-button-cancel-bg {
+    background-color: #6b7280;
+}
+.success-update-button-yes-delete-bg-hover:hover {
+    background-color: #c62222;
+}
+.success-update-button-cancel-bg-hover:hover {
+    background-color: #606773;
+}
+
+
+
+
+.header-favorites-card-hover:hover {
+    background-color: #fffbeb;
+    .header-conact-card-icon-favorite-bg-hover {
+        background-color: #00bc7d;
+        color: white;
+    }
+}
+.header-emergency-card-hover:hover {
+    background-color: #fff1f2;
+    .header-conact-card-icon-emergency-bg-hover {
+        background-color: #ff2056;
+        color: white;
+    }
+}
+input:focus , textarea:focus , select:focus {
+    box-shadow: 0 0 0 2px #8e51ff33;
+    border: 1px solid #8e51ff;
+    outline: none;
+}
+select {
+    appearance: none;
+}
+.card {
+    border: none;
+    box-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+    border: 1px solid #f6f3f4;
+}
+.input-none {
+    box-shadow: none !important;
+    border: none !important;
+}
+.max-width-512 {
+    max-width: 512px;
+}
+.max-height-90 {
+    max-height: 90vh;
+}
+.max-height-380 {
+    max-height: 380px;
+}
+.max-height-300 {
+    max-height: 300px;
+}

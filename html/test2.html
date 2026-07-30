@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/layout.all.css">
+    <link rel="stylesheet" href="../css/media-quarey.css">
+    <title>Document</title>
+</head>
+<body class="bg-main-section">
+    <nav class="navbar navbar-expand-lg bg-nav border-bottom-nav shadow-nav py-10 mb-30">
+        <div class="container-fluid container-xl px-40">
+            <a class="navbar-brand" href="#">
+                <div class="content d-flex-start">
+                    <div class="icon width-px-50 height-px-50 rounded-circle bg-main-icon text-white d-flex-center mr-10">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="text">
+                        <h1 class="text-capitalize color-main-titel fs-24 fw-bold mb-1">what's for dinner</h1>
+                        <p class="color-main-p fs-14 mb-0">Your daily meal inspiration</p>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars active color-main-icon-nav hover-color-main-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto me-lg-0 mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item">
+                <a class="nav-link d-flex-start hover-color-main-icon fs-20 color-main-icon-nav" href="#">
+                    <i class="fa-solid fa-bookmark pt-6"></i>
+                    <span class="text-capitalize d-lg-none ml-10 fs-16 border-top-nav w-100 pt-6">saved recipes</span>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link d-flex-start hover-color-main-icon fs-20 color-main-icon-nav" href="#">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <span class="text-capitalize d-lg-none ml-10 fs-16">recent</span>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link d-flex-start hover-color-main-icon fs-20 color-main-icon-nav" href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="text-capitalize d-lg-none ml-10 fs-16">setting</span>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link d-flex-start hover-color-main-icon" href="#">
+                    <div class="iamge width-px-40 height-px-40 rounded-circle border-image-icon-nav">
+                        <img src="./images/imageye___-_imgi_1_avatar-4.jpg" class="w-100 rounded-circle" alt="">
+                    </div>
+                    <span class="text-capitalize d-lg-none ml-10 fs-16">profile</span>
+                </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="max-1280 mx-auto px-30">
+        <div class="container-fluid container-xl overflow-hidden rounded-px-30">
+            <div class="row h-lg-750">
+                <div class="col-12 col-lg-5 px-0 overflow-hidden">
+                    <div class="inner h-100">
+                        <div class="content position-relative h-100">
+                            <div id="image" class="img w-100 h-100">
+                                <img src="./images/photo-1546793665-c74683f339c1.jpg" class="h-100 w-100 d-block object-fit-cover" alt="">
+                            </div>
+                            <div id="textTop" class="text-top d-flex-center position-absolute top-20 left-20 bg-white rounded-px-20 px-15 py-8">
+                                <i class="fa-solid fa-star color-header-icon mr-6"></i>
+                                <span class="mr-6 color-main-titel">4.4</span>
+                                <p class="mb-0 color-main-p fs-14">(198 reviews)</p>
+                            </div>
+                            <div class="text-bottom d-flex-around bg-white py-20 px-20 position-absolute bottom-20 left-20 right-20 rounded-px-20">
+                                <div id="text1" class="text d-flex-center flex-column ">
+                                    <i class="fa-solid fa-clock color-header-icon-oran fs-25 mb-6"></i>
+                                    <p class="mb-0 color-main-p fs-14 text-capitalize">prep time</p>
+                                    <span class="mr-6 color-main-titel">15 min</span>
+                                </div>
+                                <div id="text2" class="text d-flex-center flex-column ">
+                                    <i class="fa-solid fa-fire-burner color-header-icon-red fs-25 mb-6"></i>
+                                    <p class="mb-0 color-main-p fs-14 text-capitalize">cook time</p>
+                                    <span class="mr-6 color-main-titel">0 min</span>
+                                </div>
+                                <div id="text3" class="text d-flex-center flex-column ">
+                                    <i class="fa-solid fa-users color-header-icon-blue fs-25 mb-6"></i>
+                                    <p class="mb-0 color-main-p fs-14 text-capitalize">servings</p>
+                                    <span class="mr-6 color-main-titel">2 people</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 px-0 bg-white overflow-y-auto h-100 scrollbar-header-tab">
+                    <div class="inner p-15 p-lg-40">
+                        <div class="text">
+                            <div class="text-top d-flex-start mb-10">
+                                <div id="rightTextTop1" class="green text-capitalize bg-header-titel-green color-header-titel-green fs-12 px-15 py-1 fw-bold rounded-px-20 mr-15">
+                                    easy
+                                </div>
+                                <div id="rightTextTop2" class="blue text-capitalize bg-header-titel-blue color-header-titel-blue fs-12 px-15 py-1 fw-bold rounded-px-20 mr-15">
+                                    mediterrsnean
+                                </div>
+                            </div>
+                            <div class="tex-bottom d-flex-between-top mb-20">
+                                <div id="rightTextBottom" class="right">
+                                    <h1 class="text-capitalize color-main-titel fs-36 fw-bold">caesar salad</h1>
+                                    <p class="mb-0 color-main-p fs-18 text-capitalize">
+                                        Classic salad with crispy romaine and creamy dressing
+                                    </p>
+                                </div>
+                                <div class="left d-flex-start">
+                                    <div class="icon width-px-45 height-px-45 bg-header-icon color-header-icon-right d-flex-center rounded-px-10 mr-10">
+                                        <i class="fa-solid fa-bookmark"></i>
+                                    </div>
+                                    <div class="icon width-px-45 height-px-45 bg-header-icon color-header-icon-right d-flex-center rounded-px-10">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs">
+                            <ul class="nav nav-tabs nav-tabs-border-bottom flex-nowrap" id="myTab" role="tablist">
+                                <li class="nav-item mb-15 mr-0 mr-lg-8" role="presentation">
+                                    <button class="nav-link active color-main-p" id="ingredient-tab" data-bs-toggle="tab" data-bs-target="#ingredient-tab-pane" type="button" role="tab" aria-controls="ingredient-tab-pane" aria-selected="false">
+                                        <div class="icon fw-bold fs-12 fs-lg-16">
+                                            <i class="fa-solid fa-list-check"></i>
+                                            <span class="text-capitalize">ingredients</span>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li class="nav-item mb-15 mr-0 mr-lg-8" role="presentation">
+                                    <button class="nav-link color-main-p" id="instructions-tab" data-bs-toggle="tab" data-bs-target="#instructions-tab-pane" type="button" role="tab" aria-controls="instructions-tab-pane" aria-selected="false">
+                                        <div class="icon fw-bold fs-12 fs-lg-16">
+                                            <i class="fa-solid fa-book-open"></i>
+                                            <span class="text-capitalize">instructions</span>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li class="nav-item mb-15 mr-0 mr-lg-8" role="presentation">
+                                    <button class="nav-link color-main-p" id="nutrition-tab" data-bs-toggle="tab" data-bs-target="#nutrition-tab-pane" type="button" role="tab" aria-controls="nutrition-tab-pane" aria-selected="false">
+                                        <div class="icon fw-bold fs-12 fs-lg-16">
+                                            <i class="fa-solid fa-chart-pie"></i>
+                                            <span class="text-capitalize">nutrition</span>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li class="nav-item mb-15 mr-0 mr-lg-8" role="presentation">
+                                    <button class="nav-link color-main-p" id="chef-tab" data-bs-toggle="tab" data-bs-target="#chef-tab-pane" type="button" role="tab" aria-controls="chef-tab-pane" aria-selected="false">
+                                        <div class="icon fw-bold fs-12 fs-lg-16">
+                                            <i class="fa-solid fa-lightbulb"></i>
+                                            <span class="text-capitalize">chef's tips</span>
+                                        </div>
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content mt-20" id="myTabContent">
+                                <div class="tab-pane fade show active h-350" id="ingredient-tab-pane" role="tabpanel" aria-labelledby="ingredient-tab" tabindex="0">
+                                    <div class="inner bg-main-section p-20 rounded-px-16">
+                                        <div id="ingredients1" class="text d-flex-start mb-15">
+                                            <div class="icon width-px-25 height-px-25 bg-header-icon-oran rounded-circle d-flex-center text-white mr-10 fs-12 fw-bold">1</div>
+                                            <p class="mb-0 fs-16 color-header-list-p">1 large romaine lettuce</p>
+                                        </div>
+                                        <div id="ingredients2" class="text d-flex-start mb-15">
+                                            <div class="icon width-px-25 height-px-25 bg-header-icon-oran rounded-circle d-flex-center text-white mr-10 fs-12 fw-bold">2</div>
+                                            <p class="mb-0 fs-16 color-header-list-p">1/2 cup Caesar dressing</p>
+                                        </div>
+                                        <div id="ingredients3" class="text d-flex-start mb-15">
+                                            <div class="icon width-px-25 height-px-25 bg-header-icon-oran rounded-circle d-flex-center text-white mr-10 fs-12 fw-bold">3</div>
+                                            <p class="mb-0 fs-16 color-header-list-p">1/2 cup parmesan cheese, shaved</p>
+                                        </div>
+                                        <div id="ingredients4" class="text d-flex-start mb-15">
+                                            <div class="icon width-px-25 height-px-25 bg-header-icon-oran rounded-circle d-flex-center text-white mr-10 fs-12 fw-bold">4</div>
+                                            <p class="mb-0 fs-16 color-header-list-p">1 cup croutons</p>
+                                        </div>
+                                        <div id="ingredients5" class="text d-flex-start mb-15">
+                                            <div class="icon width-px-25 height-px-25 bg-header-icon-oran rounded-circle d-flex-center text-white mr-10 fs-12 fw-bold">5</div>
+                                            <p class="mb-0 fs-16 color-header-list-p">2 anchovy fillets (optional)</p>
+                                        </div>
+                                        <div id="ingredients6" class="text d-flex-start mb-15">
+                                            <div class="icon width-px-25 height-px-25 bg-header-icon-oran rounded-circle d-flex-center text-white mr-10 fs-12 fw-bold">6</div>
+                                            <p class="mb-0 fs-16 color-header-list-p">Lemon wedges</p>
+                                        </div>
+                                        <div id="ingredients7" class="text d-flex-start mb-15">
+                                            <div class="icon width-px-25 height-px-25 bg-header-icon-oran rounded-circle d-flex-center text-white mr-10 fs-12 fw-bold">7</div>
+                                            <p class="mb-0 fs-16 color-header-list-p">Black pepper</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade h-350 overflow-y-auto scrollbar-header-tab" id="instructions-tab-pane" role="tabpanel" aria-labelledby="instructions-tab" tabindex="0">
+                                    <div class="inner p-10 p-lg-20">
+                                        <div id="instructions1" class="steps mb-20 d-flex-start">
+                                            <div class="icon d-flex-center width-px-50 height-px-50 bg-header-icon-oran rounded-px-15 mr-15">
+                                                <span class="text-white fs-20 fw-bold ">1</span>
+                                            </div>
+                                            <div class="text">
+                                                <p class="mb-0 max-width-350">Wash and dry romaine lettuce thoroughly. Tear into bite-sized pieces.</p>
+                                            </div>
+                                        </div>
+                                        <div id="instructions2" class="steps mb-20 d-flex-start">
+                                            <div class="icon d-flex-center width-px-50 height-px-50 bg-header-icon-oran rounded-px-15 mr-15">
+                                                <span class="text-white fs-20 fw-bold ">2</span>
+                                            </div>
+                                            <div class="text">
+                                                <p class="mb-0 max-width-350">Place lettuce in a large salad bowl.</p>
+                                            </div>
+                                        </div>
+                                        <div id="instructions3" class="steps mb-20 d-flex-start">
+                                            <div class="icon d-flex-center width-px-50 height-px-50 bg-header-icon-oran rounded-px-15 mr-15">
+                                                <span class="text-white fs-20 fw-bold ">3</span>
+                                            </div>
+                                            <div class="text">
+                                                <p class="mb-0 max-width-350">Add Caesar dressing and toss until evenly coated.</p>
+                                            </div>
+                                        </div>
+                                        <div id="instructions4" class="steps mb-20 d-flex-start">
+                                            <div class="icon d-flex-center width-px-50 height-px-50 bg-header-icon-oran rounded-px-15 mr-15">
+                                                <span class="text-white fs-20 fw-bold ">4</span>
+                                            </div>
+                                            <div class="text">
+                                                <p class="mb-0 max-width-350">Add croutons and half the parmesan cheese. Toss gently.</p>
+                                            </div>
+                                        </div>
+                                        <div id="instructions5" class="steps mb-20 d-flex-start">
+                                            <div class="icon d-flex-center width-px-50 height-px-50 bg-header-icon-oran rounded-px-15 mr-15">
+                                                <span class="text-white fs-20 fw-bold ">5</span>
+                                            </div>
+                                            <div class="text">
+                                                <p class="mb-0 max-width-350">Top with remaining parmesan shavings and anchovies if using.</p>
+                                            </div>
+                                        </div>
+                                        <div id="instructions6" class="steps mb-20 d-flex-start">
+                                            <div class="icon d-flex-center width-px-50 height-px-50 bg-header-icon-oran rounded-px-15 mr-15">
+                                                <span class="text-white fs-20 fw-bold ">6</span>
+                                            </div>
+                                            <div class="text">
+                                                <p class="mb-0 max-width-350">Serve immediately with lemon wedges and fresh black pepper.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade h-350 overflow-y-auto scrollbar-header-tab" id="nutrition-tab-pane" role="tabpanel" aria-labelledby="nutrition-tab" tabindex="0">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="inner">
+                                                    <div class="item p-16 rounded-px-16 bg-header-item d-flex-between mb-15">
+                                                        <div class="text-right d-flex-center">
+                                                            <div class="icon width-px-40 height-px-40 bg-header-icon d-flex-center rounded-px-12 mr-10">
+                                                                <i class="fa-solid fa-fire color-header-icon-right"></i>
+                                                            </div>
+                                                            <div class="text">
+                                                                <p class="text-capitalize color-header-list-p fs-16 fw-bold mb-0">calories</p>
+                                                            </div>
+                                                        </div>
+                                                        <div id="nutrition1" class="text-left">
+                                                            <span class="color-main-titel fs-20 fw-bold">320 kcal</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item p-16 rounded-px-16 bg-header-item d-flex-between mb-15">
+                                                        <div class="text-right d-flex-center">
+                                                            <div class="icon width-px-40 height-px-40 bg-header-item-icon2 d-flex-center rounded-px-12 mr-10">
+                                                                <i class="fa-solid fa-wheat-awn color-header-item-icon2"></i>
+                                                            </div>
+                                                            <div class="text">
+                                                                <p class="text-capitalize color-header-list-p fs-16 fw-bold mb-0">carbohydrates</p>
+                                                            </div>
+                                                        </div>
+                                                        <div id="nutrition2" class="text-left">
+                                                            <span class="color-main-titel fs-20 fw-bold">18g</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item p-16 rounded-px-16 bg-header-item d-flex-between mb-15">
+                                                        <div class="text-right d-flex-center">
+                                                            <div class="icon width-px-40 height-px-40 bg-header-titel-green d-flex-center rounded-px-12 mr-10">
+                                                                <i class="fa-solid fa-seedling color-header-item-icon3"></i>
+                                                            </div>
+                                                            <div class="text">
+                                                                <p class="text-capitalize color-header-list-p fs-16 fw-bold mb-0">fiber</p>
+                                                            </div>
+                                                        </div>
+                                                        <div id="nutrition3" class="text-left">
+                                                            <span class="color-main-titel fs-20 fw-bold">3g</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="inner">
+                                                    <div class="item p-16 rounded-px-16 bg-header-item d-flex-between mb-15">
+                                                        <div class="text-right d-flex-center">
+                                                            <div class="icon width-px-40 height-px-40 bg-header-titel-blue d-flex-center rounded-px-12 mr-10">
+                                                                <i class="fa-solid fa-dumbbell color-header-item-icon4"></i>
+                                                            </div>
+                                                            <div class="text">
+                                                                <p class="text-capitalize color-header-list-p fs-16 fw-bold mb-0">protein</p>
+                                                            </div>
+                                                        </div>
+                                                        <div id="nutrition4" class="text-left">
+                                                            <span class="color-main-titel fs-20 fw-bold">12g</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item p-16 rounded-px-16 bg-header-item d-flex-between mb-15">
+                                                        <div class="text-right d-flex-center">
+                                                            <div class="icon width-px-40 height-px-40 bg-header-item-icon5 d-flex-center rounded-px-12 mr-10">
+                                                                <i class="fa-solid fa-droplet color-header-item-icon5"></i>
+                                                            </div>
+                                                            <div class="text">
+                                                                <p class="text-capitalize color-header-list-p fs-16 fw-bold mb-0">Fat</p>
+                                                            </div>
+                                                        </div>
+                                                        <div id="nutrition5" class="text-left">
+                                                            <span class="color-main-titel fs-20 fw-bold">22g</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item p-16 rounded-px-16 bg-header-item d-flex-between mb-15">
+                                                        <div class="text-right d-flex-center">
+                                                            <div class="icon width-px-40 height-px-40 bg-header-item-icon6 d-flex-center rounded-px-12 mr-10">
+                                                                <i class="fa-solid fa-cube color-header-item-icon6"></i>
+                                                            </div>
+                                                            <div class="text">
+                                                                <p class="text-capitalize color-header-list-p fs-16 fw-bold mb-0">sodium</p>
+                                                            </div>
+                                                        </div>
+                                                        <div id="nutrition6" class="text-left">
+                                                            <span class="color-main-titel fs-20 fw-bold">680mg</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade h-350 overflow-y-auto scrollbar-header-tab" id="chef-tab-pane" role="tabpanel" aria-labelledby="chef-tab" tabindex="0">
+                                    <div class="inner">
+                                        <div class="item mb-15 bg-header-item-chef px-35 py-15 rounded-px-16 d-flex-start border-left-header-item-chef">
+                                            <div class="icon mr-10">
+                                                <i class="fa-solid fa-circle-check color-header-item-chef-icon fs-20"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p id="chef1" class="color-header-list-p">Use cold, crisp lettuce for best texture</p>
+                                            </div>
+                                        </div>
+                                        <div class="item mb-15 bg-header-item-chef px-35 py-15 rounded-px-16 d-flex-start border-left-header-item-chef">
+                                            <div class="icon mr-10">
+                                                <i class="fa-solid fa-circle-check color-header-item-chef-icon fs-20"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p id="chef2" class="color-header-list-p">Make homemade croutons for better flavor</p>
+                                            </div>
+                                        </div>
+                                        <div class="item mb-15 bg-header-item-chef px-35 py-15 rounded-px-16 d-flex-start border-left-header-item-chef">
+                                            <div class="icon mr-10">
+                                                <i class="fa-solid fa-circle-check color-header-item-chef-icon fs-20"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p id="chef3" class="color-header-list-p">Add grilled chicken for a complete meal</p>
+                                            </div>
+                                        </div>
+                                        <div class="item mb-15 bg-header-item-chef px-35 py-15 rounded-px-16 d-flex-start border-left-header-item-chef">
+                                            <div class="icon mr-10">
+                                                <i class="fa-solid fa-circle-check color-header-item-chef-icon fs-20"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p id="chef4" class="color-header-list-p">Don't dress salad until ready to serve</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div id="button" class="mt-40 pt-24 border-top-header">
+                            <button onclick="counter()" class="btn px-20 py-12 fs-16 fw-bold text-white rounded-px-10 bg-header-botton bg-header-botton-hover transition-03">
+                                <i class="fa-solid fa-rotate"></i>
+                                <span class="text-capitalize">try another recipe</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
